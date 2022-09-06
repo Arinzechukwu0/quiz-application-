@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    <div class="start-btn">
+        <button>start quiz</button>
+    </div>
+    <div class="info-box ">
+        <div class="info-title">
+            <span>Some rules of this quiz</span>
+        </div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer, you can't reselect.</div>
+            <div class="info">3. You can't select any option once the time goes off.</div>
+            <div class="info">4. You can't exist from quiz while you're playing</div>
+            <div class="info">5. You'll get points on the basis of your correct answers </div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exist quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- quiz box -->
+    <div class="quiz-box">
+        <header>
+            <div class="title">Awesome quiz application</div>
+            <div class="timer">
+                <div class="time-txt">Time left</div>
+                <div class="timer-sec">15</div>
+            </div>
+            <div class="time-line"></div>
+        </header>
+        <section>
+            <div class="que-txt">
+                <!-- <span>What does HTML stands for ?</span> -->
+            </div>
+            <div class="option-list">
+                <!-- <div class="option">
+                    <span>Hyper text preprocessor</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>Hyper text markup language</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option">
+                    <span>Hyper text multiple language</span>
+                </div>
+                <div class="option">
+                    <span>Hyper tool multi language</span>
+                </div> -->
+
+            </div>
+        </section>
+
+        <footer>
+            <div class="total-que">
+                <span><p>2</p>of<p>15</p>questions</span>
+            </div>
+            <button class="next-btn">Next Que</button>
+        </footer>
+    </div>
+
+    <!-- result box -->
+    <div class="result-box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete-text">You've completed the quiz!</div>
+        <div class="score-text">
+            <!-- <span>and sorry, you got only <p>2</p> out of <p>15</p></span> -->
+        </div>
+        <div class="buttonss">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
